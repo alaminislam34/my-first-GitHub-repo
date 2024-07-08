@@ -26,8 +26,9 @@
 /* header style */
 .container{
     text-align: center;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-    url('../images/Banner\ Image.png');
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url('../images/Banner\ Image.png');
+    background-blend-mode: overlay;
     background-position: center;
     background-size: cover;
     height: 500px;
@@ -91,6 +92,9 @@
 }
 .banner2 .banner2-img{
     padding: 60px 100px 68px 0px;
+    max-width: 340px;
+    max-height: 400px;
+    margin-right: 100px;
 }
 
 /* banner3 style */
@@ -128,4 +132,121 @@
 .banner4-title-img img{
     margin: 30px;
     padding: 50px;
+}
+
+/* banner5 styles */
+
+.banner5{
+    margin: 120px 140px;
+    height: 986px;
+}
+.banner5 .banner5-content{
+    text-align: center;
+}
+.banner5-content h2{
+    font-size: 24px;
+    font-weight: 400px;
+    color: #070211;
+    margin-bottom: 16px;
+}
+.banner5-content h1{
+    font-size: 72px;
+    font-weight: bolder;
+    font-family: "Merriweather",serif;
+    padding-bottom: 28px;
+}
+.banner5-content p{
+    font-size: 20px;
+    font-weight: 400px;
+    font-family: "Inter",serif;
+    padding: 0px 126px 64px 126px;
+    line-height: 32px;
+}
+.banner5-img{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border-radius: 16px;
+}
+.banner5-img .img1{
+    padding: 64px 0px 85px 60px;
+    max-width: 675px;
+    max-height: 578px;
+}
+.banner5-img .img2{
+    max-width: 305px;
+    max-height: 305px;
+}
+/* banner6 styles */
+section{
+    margin: 120px 140px;
+}
+
+section .banner6{
+    margin: 120px 140px;
+    border-radius: 16px;
+
+}
+.banner6 .banner6-content{
+    text-align: left;
+    line-height: 32px;
+}
+.banner6-content h4{
+    font-size: 24px;
+    font-weight: 400px;
+}
+.banner6-content h1{
+    font-size: 48px;
+    font-weight: bold;
+    padding: 16px 0px 32px 0px;
+}
+.banner6-content p{
+    padding: 0px 424px 48px 0px;
+    font-family: "inter",serif;
+    font-size: 20px;
+    line-height: 32px;
+}
+.banner6-images{
+    width: 1320px;
+    height: 900px;
+    border-radius: 16px;
+}
+.image6{
+    display: inline-table;
+}
+
+/* footer styles */
+footer{
+    margin: 120px 140px;
+    max-width: 1320px;
+    
+}
+.footer{
+    text-align: center;
+    background-color: #f5d5d5;
+    align-items: center;
+    padding: 80px 212px 48px 212px;
+}
+.footer-title{
+    font-size: 48px;
+    font-weight: bold;
+    font-family: "Merriweather", serif;
+    padding: 30px 0px 22px 0px;
+}
+.footer-btn1{
+    padding: 20px 0px 20px 30px;
+    border-radius: 50px 0px 0px 50px;
+    border: none;
+}
+.footer-btn2{
+    padding: 20px 30px 20px 30px;
+    border-radius: 0px 50px 50px 0px;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    border: none;
+}
+.footer-button{
+    margin-top: 20px;
 }

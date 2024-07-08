@@ -189,7 +189,7 @@ section{
 }
 
 section .banner6{
-    margin: 120px 140px;
+    max-width: 1320px;
     border-radius: 16px;
 
 }
@@ -213,7 +213,6 @@ section .banner6{
     line-height: 32px;
 }
 .banner6-images{
-    width: 1320px;
     height: 900px;
     border-radius: 16px;
 }

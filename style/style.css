@@ -1,11 +1,17 @@
 /* Font */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 /* shared style */
-body{
-    font-family: merriweather, sans-serif;
-}
+/* body{
+    font-family: "merriweather", serif;
+    margin: 120px 140px;
+} */
 .common-font{
     font-family: Inter, sans-serif;
 }
@@ -24,14 +30,14 @@ body{
     url('../images/Banner\ Image.png');
     background-position: center;
     background-size: cover;
-    height: 600px;
+    height: 500px;
     align-items: center;
-    margin: 50px 140px;
-
+    /* margin: 50px auto; */
+    margin: 80px 140px 80px 140px;
 }
 .container .title{
     color: #ffffff;
-    padding: 160px 340px;
+    padding: 150px 200px 150px 200px;
 }
 .title h3{
     font-size: 32px;
@@ -67,7 +73,7 @@ body{
     margin: 120px 140px;
     display: flex;
     gap: 40px;
-    height: 600px;
+    height: 550px;
 }
 .banner2 .banner2-content{
     text-align: left;
@@ -84,7 +90,7 @@ body{
     padding-left: 32px;
 }
 .banner2 .banner2-img{
-    padding: 68px 138px 68px 0px;
+    padding: 60px 100px 68px 0px;
 }
 
 /* banner3 style */
@@ -113,8 +119,8 @@ body{
 .banner4{
     height: 480px;
     display: flex;
-    gap: 60px;
-    margin: 120px 140px;
+    gap: 30px;
+    margin: 120px 140px 120px 140px;
     justify-content: space-between;
     align-items: center;
     border-radius: 16px;

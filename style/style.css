@@ -5,7 +5,6 @@
 /* shared style */
 body{
     font-family: merriweather, sans-serif;
-    margin: 0 175px;
 }
 .common-font{
     font-family: Inter, sans-serif;
@@ -26,7 +25,7 @@ body{
     background-position: center;
     height: 600px;
     align-items: center;
-    margin: 50px auto;
+    margin: 50px 140px;
 
 }
 .container .title{
@@ -44,7 +43,7 @@ body{
 /* main style */
 .banner1{
     text-align: center;
-    margin: 120px 260px;
+    margin: 120px 140px;
 }
 .banner1 .offer{
     font-weight: bold;
@@ -63,7 +62,7 @@ body{
 .banner2{
     background: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/Vectorrr.png);
     background-position: center;
-    margin: 120px auto 120px;
+    margin: 120px 140px;
     display: flex;
     gap: 40px;
     height: 600px;
@@ -92,7 +91,7 @@ body{
     text-align: center;
     background: #f5d5d5;
     padding: 100px 0px;
-    margin: 120px auto;
+    margin: 120px 140px;
 }
 .banner3 .banner3-title{
     font-size: 32px;
@@ -113,7 +112,7 @@ body{
     height: 480px;
     display: flex;
     gap: 60px;
-    margin: 120px auto;
+    margin: 120px 140px;
     justify-content: space-between;
     align-items: center;
     border-radius: 16px;
